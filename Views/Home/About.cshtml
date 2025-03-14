@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "_Layout";
+    
+    ViewBag.Page = "About";
+        
+    // Define variable profile variables
+    var name = "Omar McIntosh";
+    var stuNumber = "101032428";
+    var courseCode = "COMP 2139";
+    var sectionCode = "50272";   // CRN
+}
+<div class="text-center">
+    <h1 class="display-4 page-title">@ViewBag.Page</h1>
+</div>
+
+
+<div>
+    <h2>Welcome to my Applications</h2>
+    <p>Name: @name</p>
+    <p>Student Number: @stuNumber</p>
+    <p>Course Code: @courseCode</p>
+    <p>Section: @sectionCode</p>
+</div>
