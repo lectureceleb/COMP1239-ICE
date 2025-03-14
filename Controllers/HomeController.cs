@@ -15,7 +15,6 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.Title = "COMP 2139 ICE";
         return View();
     }
 
